@@ -1,16 +1,17 @@
 import string
-from collections import Counter
 
 def is_pangram(s):
-    abc = Counter(list(string.ascii_lowercase) + list(string.ascii_uppercase))
+    abc = list(string.ascii_letters)
     #print(abc)
-    c = Counter(''.join(s.split()))
+    c = ''.join(s.split())    
     count = 0
-    for i in c.keys():
-        if i in abc.keys():
+    for i in c:
+        if i in abc:
             count += 1
-            if count == len(c):
-                return True
+            abc.remove(i.upper())
+            abc.remove(i.lower())
+    if count >= 26:
+        return True
     else:
         return False
 
