@@ -1,3 +1,5 @@
+"""this code help you to find if a sentence is a pangram"""
+
 import string
 
 def is_pangram(s):

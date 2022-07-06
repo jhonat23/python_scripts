@@ -6,7 +6,7 @@ MARKS      CLASS      NAME       ID
 94         2          Jason      3         
 55         8          Glenn      4         
 82         2          Fergus     5
-"""
+Code to understand named tuples"""
 
 from collections import namedtuple
 

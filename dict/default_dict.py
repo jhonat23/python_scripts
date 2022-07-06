@@ -1,3 +1,5 @@
+"""Code to understand defautldict"""
+
 from collections import defaultdict
 
 def por_defecto():

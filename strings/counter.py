@@ -1,4 +1,5 @@
-"""entry type:
+"""Use of counter list: selling shoes
+entry type:
 3
 1 2 3
 2

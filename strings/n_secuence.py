@@ -1,3 +1,5 @@
+"""Code for create a secuence of numbers on string"""
+
 if __name__ == '__main__':
     n = int(input())
     number = ''

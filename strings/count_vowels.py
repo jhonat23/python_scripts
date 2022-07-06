@@ -1,3 +1,5 @@
+"""Counting vowels from a sentence"""
+
 def get_count(sentence):
     count = 0
     for i in sentence:

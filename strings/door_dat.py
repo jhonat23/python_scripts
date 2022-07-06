@@ -1,3 +1,5 @@
+"""Printing a door dat"""
+
 N, M = map(int, input().split())
 vert = N
 horz = M

@@ -1,3 +1,4 @@
+"""Code to understand counter"""
 from collections import Counter
 
 print(Counter(['a', 'b', 'c', 'a', 'b', 'b']))

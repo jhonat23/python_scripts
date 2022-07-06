@@ -1,3 +1,5 @@
+"""Code for wraping text"""
+
 import textwrap
 
 def wrap(string, max_width):

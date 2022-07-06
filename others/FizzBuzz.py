@@ -1,3 +1,5 @@
+"""Print Fizz for multiple of 3 numbers, Buzz for multiple of 5 and FizzBuzz for both cases"""
+
 def fizzBuzz(n):
     lst = []
     for i in range(0, n):

@@ -1,3 +1,4 @@
+"""I not make this code but, is useful to understand de position of prints"""
 #Replace all ______ with rjust, ljust or center. 
 
 thickness = int(input()) #This must be an odd number

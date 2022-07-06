@@ -1,3 +1,5 @@
+"""Code to make some methods on list using eval"""
+
 if __name__ == '__main__':
     lst = []
     steps = []
