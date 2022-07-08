@@ -20,10 +20,22 @@ import sys
 
 def jumpingOnClouds(c):
     c = list(map(int, c.split()))
-    return c
+    jumps = 0
+    while len(c) > 1:
+        if c[0] == 0 and c[1] == 0 and len(c) == 2:
+            c = c[1:]
+        elif c[0] == 0 and c[1] == 0 and c[2] == 1:
+            c = c[1:]
+        elif c[0] == 0 and c[1] == 1 and c[2] == 0:
+            c = c[2:]
+        elif c[0] == 0 and c[1] == 0 and c[2] == 0:
+            c = c[2:]
+        jumps += 1
+        print(c)
+    return jumps
     # Write your code here
 
-print(jumpingOnClouds('0 0 1 0 0 1 0'))
+print(jumpingOnClouds('0 0 0 1 0 0'))
 
 """if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
