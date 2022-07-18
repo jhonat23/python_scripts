@@ -15,7 +15,7 @@ def arrayManipulation(n, queries):
     #     if i < 0:
     #         break
     #     res += i
-    # MY NOT OPTIMIZE FIRST SOLUTION    
+    # MY NOT OPTIMIZED FIRST SOLUTION    
     base = {i : 0 for i in range(1,n + 1)}
     for query in queries:
         for i in range(query[0], query[1] + 1):
