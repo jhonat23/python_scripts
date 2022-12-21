@@ -11,9 +11,9 @@ It contains no unmatched brackets.
 The subset of brackets enclosed within the confines of a matched pair of brackets is also a matched pair of brackets.
 Given n strings of brackets, determine whether each sequence of brackets is balanced. If a string is balanced, return YES. Otherwise, return NO."""
 
-def isBalanced(s):
+def isBalanced(s: str) -> str:
     if len(s) % 2 != 0:
-        print('NO')
+        return 'NO'
     while '{}' in s or '[]' in s or '()' in s:
         s = s.replace('{}', '')
         s = s.replace('[]', '')
@@ -29,6 +29,5 @@ if __name__ == '__main__':
 
     for _ in range(t):
         s = input()
-
         result = isBalanced(s)
         print(result)
